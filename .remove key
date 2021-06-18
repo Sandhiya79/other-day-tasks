@@ -1,0 +1,6 @@
+my_dict={'kamatchi':'84','kamal':'54,'}
+print("The dicitionary before removing process:"+str(my_dict))
+#removing element from dictionary
+del my_dict['kamal']
+print("The dicitionary after removing process:"+str(my_dict))
+
