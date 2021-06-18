@@ -1,0 +1,9 @@
+#create the set
+classA={"samu","sandhiya","vaishu","praveen"}
+print(classA)
+classB={"divya","manjula","sathish"}
+print(classB)
+#finding the length of sets
+print(classA,"The length of classA:",len(classA))
+print(classB,"the length of classB:",len(classB))
+
