@@ -1,0 +1,15 @@
+#Map two lists to dicitionary
+key=[]
+values=[]
+n=int(input("Enter number of element for dicitionary:"))
+print("For key")
+for x in range(0,n):
+    element=int(input("Enter the element:"+str(x+1)+":"))
+    key.append(element)
+print("For values")
+for x in range(0,n):
+    element=int(input("Enter the element:"+str(x+1)+":"))
+    values.append(element)
+    d=dict(zip(key,values))
+    print("The dicitionary is",d)
+    
