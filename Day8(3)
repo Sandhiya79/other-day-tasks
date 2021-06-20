@@ -1,0 +1,11 @@
+def Repeat(x):
+    _size=len(x)
+    repeated=[]
+for i in range(_size):
+    k=i+1
+    for j in range(k,_size):
+        if x[i] == x[j] and x[i] not in repeated
+        repeated.append(x[i])
+    return repeated
+    list1=[10, 20,47,76,50,47,98,76,60,98,47]
+    print(Repeat(list1))
