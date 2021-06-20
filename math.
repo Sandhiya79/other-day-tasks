@@ -1,0 +1,27 @@
+#day task 7
+print("!!!demonstrate using function!!!")
+def sum(a,b):
+    c=a+b
+    return c
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+print("Addition of two numbers is ",+sum(num1,num2))
+def sum(d,e):
+    f=d-e
+    return f
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+print("Subtraction of two numbers is",+sum(num1,num2))
+def sum(g,h):
+    i=g*h
+    return i
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+print("Multiplication of two numbers is:",+sum(num1,num2))
+def sum(j,k):
+    l=j/k
+    return l
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+print("Division of two numbers is:",+sum(num1,num2))
+
