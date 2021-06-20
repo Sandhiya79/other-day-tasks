@@ -1,0 +1,9 @@
+#sort the values from descending to ascending order
+b=[7,4,6,9,2]
+b.sort() 
+print("List in descending",b)
+b.sort(reverse=True) 
+print("List in Ascending order",b)
+#convert list to set
+a=set(b)
+print("converting list to set:",a)
